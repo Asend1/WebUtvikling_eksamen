@@ -1,0 +1,164 @@
+body {
+    margin: 10px;
+}
+.navigasjon{
+    display: grid;
+    
+}
+
+.nav_knapper {
+    text-decoration: none;
+    color: black;
+
+}
+
+#section {
+    background-color: gray;
+    display: grid;
+    justify-content: end;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#button1, #button2, #button3 {
+    background-color: white;
+    font-size: 16px;
+}
+
+.products{
+    display: grid;
+    justify-items: center;
+}
+.product-image1, .product-image2, .product-image3, .product-image4, .product-image5, .product-image6 {
+    width: 355px;
+}
+
+.product-name{
+    margin: 0;
+}
+
+.product-price{
+    margin-top: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+    
+}
+
+#Category1, #Category2, #Category4, #Category5  {
+    display: flex;
+    justify-content: center;
+    border: solid;
+    height: 100px;
+    align-items: center;
+    margin: 0;
+}
+
+#Category3 {
+    display: flex;
+    justify-content: center;
+    border: solid;
+    height: 200px;
+    align-items: center;
+    margin: 0;
+}
+
+.anmeldelse {
+    border: ridge;
+    margin: 10px;
+
+}
+
+.footer {
+    border-top: solid;
+}
+
+.informasjon_footer{
+    padding: 0;
+    list-style: none;
+}
+
+.Shortcut_footer {
+    padding : 0;
+    list-style: none;
+}
+
+.Snarveier {
+    text-decoration: none;
+    color:black;
+}
+
+.Sosiale_Medier{
+    list-style: none;
+    color: black;
+    padding: 0;
+}
+
+.SMO_Ikoner {
+    text-decoration: none;
+    color:black;
+    width:10px;
+}
+
+.ikoner {
+    width: 10px;
+}
+
+.product-name_1{
+    margin: 0;
+}
+
+.opplysninger{
+    display: grid;
+    padding: 20px;
+}
+
+#Levering-container{
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.kort_skjema {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.knapp {
+    background-color: gray;
+    width: fit-content;
+    color:white
+}
+
+.checkbox {
+    display: flex;
+}
+
+
+.product-info-image1 {
+    display: flex;
+    width: 360px;
+}
+
+
+.product-info-image2, .product-info-image3, .product-info-image4 {
+    display: flex;
+    width: 345px;
+}
+
+.produkt_bilder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
